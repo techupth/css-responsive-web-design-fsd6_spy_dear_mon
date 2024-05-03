@@ -1,1 +1,205 @@
-/* Start coding here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+mark {
+  background-color: #ff8345;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #183b56;
+  font-size: 1rem;
+  padding: 50px 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 340px);
+  gap: 30px;
+  justify-content: center;
+}
+
+.container-box {
+  width: 333px;
+  height: 268px;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container-box:hover {
+  width: 333px;
+  height: 268px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #fff3ed;
+  position: absolute;
+  border: 1px solid #ededed;
+  top: 30px;
+  left: 30px;
+}
+
+.logo-img img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}
+
+.container-text h3 {
+  position: absolute;
+  color: #183b56;
+  bottom: 65px;
+  left: 30px;
+}
+
+.container-text p {
+  position: absolute;
+  color: #5a7184;
+  bottom: 25px;
+  left: 30px;
+}
+
+.container-button {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+}
+
+.container-button img {
+  width: 32px;
+  height: 32px;
+}
+
+/* _______________________________________________ 
+------------------content-box2--------------------*/
+
+.container-box2 {
+  width: 333px;
+  height: 268px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container-box2:hover {
+  width: 333px;
+  height: 268px;
+  border: 1px solid #ededed;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.circle2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #ff8345;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.08);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.logo-img2 img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}
+
+.container-text2 h3 {
+  color: #183b56;
+  position: absolute;
+  bottom: 65px;
+  left: 30px;
+}
+
+.container-text2 p {
+  position: absolute;
+  color: #5a7184;
+  bottom: 25px;
+  left: 30px;
+}
+
+.container-button2 {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+}
+
+.container-button2 img {
+  width: 32px;
+  height: 32px;
+}
+
+/* _______________________________________________ 
+------------------content-box3--------------------*/
+
+.container-box3 {
+  width: 333px;
+  height: 268px;
+  background-color: #ff8345;
+  border-radius: 10px;
+  position: relative;
+}
+.container-text3 {
+  position: absolute;
+  color: white;
+  font-size: 1.6rem;
+  top: 75px;
+  left: 50px;
+}
+.img-top {
+  position: absolute;
+  filter: opacity(20%);
+  top: -180px;
+}
+
+.img-bottom {
+  position: absolute;
+  filter: opacity(20%);
+  top: 10px;
+  left: -50px;
+  transform: rotate(-200deg);
+}
+
+.container-button3 {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+}
+
+.container-button3 img {
+  width: 60px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

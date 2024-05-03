@@ -1,1 +1,87 @@
 /* Start coding here */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  color: rgba(24, 59, 86, 1);
+}
+
+header {
+  text-align: center;
+  font-weight: 700;
+  /* font-size: 40px; */
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  flex-basis: 330px;
+  height: 268px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(255, 131, 69, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon {
+  font-size: 40px;
+  color: #ff8345;
+}
+
+.detail {
+  position: relative;
+}
+
+.detail .link {
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.item.last {
+  background-color: rgba(255, 131, 69, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; */
+  position: relative;
+}
+
+.link.last {
+  width: 226px;
+  /* position: relative; */
+  position: absolute;
+}
+
+.link.last .fas {
+  padding: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

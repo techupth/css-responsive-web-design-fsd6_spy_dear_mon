@@ -1,16 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Web Design - Ex 2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Responsive Web Design - Ex 2</title>
-</head>
-
-<body>
-  <!-- Start coding here -->
-</body>
-
+  <body class="p-3">
+    <!-- Start coding here -->
+    <head class="flex justify-center">
+      <h1 class="text-center text-4xl font-bold text-blue-950">
+        Browse by <br />
+        <span class="bg-gradient-to-t from-orange-500 to-white to-50%"
+          >Job</span
+        >
+        Categories
+      </h1>
+    </head>
+    <section
+      class="container-top mt-5 flex flex-col justify-center items-center sm:flex-row gap-4"
+    >
+      <div
+        class="item-market group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-bullhorn text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Digital Marketing</h1>
+          <p class="text-sky-700">143 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item-art group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-pen-nib text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Art & Design</h1>
+          <p class="text-sky-700">110 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item-account group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-dollar-sign text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Accounting</h1>
+          <p class="text-sky-700">158 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item-photo group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-camera text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Photography</h1>
+          <p class="text-sky-700">95 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+    </section>
+    <section
+      class="container-bottom mt-4 flex flex-col justify-center items-center sm:flex-row gap-4"
+    >
+      <div
+        class="item item-write group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-edit text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Copy Writing</h1>
+          <p class="text-sky-700">113 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item item-music group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-headphones-alt text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Music</h1>
+          <p class="text-sky-700">55 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item item-hr group hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <i
+          class="fas fa-user-friends text-[40px] text-orange-500 group-hover:text-white group-hover:bg-orange-500 w-[80px] h-[80px] rounded-full bg-orange-50 text-center content-center"
+        ></i>
+        <div class="absolute bottom-[30px] left-[30px]">
+          <h1 class="text-xl font-bold pb-3">Human Resouce</h1>
+          <p class="text-sky-700">25 Jobs Opened</p>
+        </div>
+        <i class="absolute bottom-[30px] right-[30px] fas fa-arrow-right"></i>
+      </div>
+      <div
+        class="item item-more group bg-orange-400 hover:bg-slate-100 relative w-[333px] h-[268px] p-6 border border-zinc-200 rounded-lg"
+      >
+        <div class="absolute bottom-[80px] left-[50px]">
+          <h1 class="text-2xl pb-3 text-white group-hover:text-blue-950">
+            Explore <br />
+            30 More <br />
+            Categories
+          </h1>
+        </div>
+        <i
+          class="absolute bottom-[110px] right-[80px] fas fa-arrow-right text-white group-hover:text-blue-950"
+        ></i>
+        <img
+          class="absolute top-0 right-0"
+          src="./images/Vector1.png"
+          alt="vector1"
+        />
+        <img
+          class="absolute top-0 right-0"
+          src="./images/Vector2.png"
+          alt="vector2"
+        />
+        <img
+          class="absolute bottom-0 left-0"
+          src="./images/Vector3.png"
+          alt="vector3"
+        />
+        <img
+          class="absolute bottom-0 left-0"
+          src="./images/Vector4.png"
+          alt="vector4"
+        />
+      </div>
+    </section>
+  </body>
 </html>
